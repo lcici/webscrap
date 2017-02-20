@@ -1,0 +1,3 @@
+from urllib.request import urlopen
+html = urlopen("https://docs.continuum.io/anaconda/install#linux-install")
+print(html.read())
